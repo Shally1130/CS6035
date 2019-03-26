@@ -1,0 +1,162 @@
+Question 1
+Security mechanisms typically do not involve more than one particular
+
+algorithm or protocol.
+
+  True 
+X False 
+ 
+Question 2
+The first step in devising security services and mechanisms is to
+
+develop a security policy.
+
+X True 
+  False 
+ 
+Question 3
+To exploit any type of buffer overflow the attacker needs to identify a
+buffer overflow vulnerability in some program that can be triggered
+using externally sourced data under the attackers control.
+X True 
+  False 
+ 
+Question 4
+Shellcode is not specific to a particular processor architecture.
+  True 
+X False 
+ 
+Question 5
+An attacker can generally determine in advance exactly where the
+targeted buffer will be located in the stack frame of the function in
+which it is defined.
+  True 
+X False 
+ 
+Question 6
+It is possible to write a compiler tool to check any C program and
+identify all possible buffer overflow bugs.
+  True 
+X False 
+ 
+Question 7
+The OpenSSL heartbleed vulnerability would have been prevented if
+OpenSSL had been implemented in Java (and the Java runtime environment works
+properly).
+X True 
+  False 
+ 
+Question 8
+ASLR (if implemented correctly) can prevent return-to- libc attacks.
+X True 
+  False 
+ 
+Question 9
+__________ assures that individuals control or influence what information
+related to them may be collected and stored and by whom and to whom that
+information may be disclosed.
+  Availability 
+X Privacy 
+  System Integrity 
+  Data Integrity 
+ 
+Question 10
+________ assures that a system performs its intended function in an unimpaired
+manner, free from deliberate or inadvertent unauthorized manipulation of the
+system.
+X System Integrity 
+  Availability 
+  Data Integrity 
+  Confidentiality 
+ 
+Question 11
+A loss of _________ is the unauthorized disclosure of information.
+X Confidentiality 
+  Integrity 
+  Authenticity 
+  Availability 
+ 
+Question 12
+A flaw or weakness in a system’s design, implementation, or operation and
+management that could be exploited to violate the system’s security policy is
+a(n) __________.
+  Countermeasure 
+  Adversary 
+X Vulnerability 
+  Risk 
+ 
+Question 13
+An assault on system security that derives from an intelligent act that is a
+deliberate attempt to evade security services and violate the security policy of a
+system is a(n) __________.
+  Risk 
+X Attack 
+  Asset 
+  Vulnerability 
+ 
+Question 14
+A(n) __________ is an action, device, procedure, or technique that reduces a
+threat, a vulnerability, or an attack by eliminating or preventing it, by minimizing
+the harm it can cause, or by discovering and reporting it so that correct action can
+be taken.
+
+  Attack 
+  Adversary 
+X Countermeasure 
+  Protocol 
+ 
+Question 15
+An example of __________ is an attempt by an unauthorized user to gain access
+to a system by posing as an authorized user.
+
+X Masquerade 
+  Repudiation 
+  Interception 
+  Inference 
+ 
+Question 16
+The assurance that data received are exactly as sent by an authorized
+entity is __________.
+
+  Authentication 
+  Access Control 
+  Data Confidentiality 
+X Data Integrity 
+ 
+Question 17
+A consequence of a buffer overflow error is __________.
+  Corruption of data used by the program 
+  Unexpected transfer of control in the program 
+  Possible memory access violation 
+X All of the above 
+ 
+Question 18
+The function of ________ was to transfer control to a user command-line
+interpreter, which gave access to any program available on the system with the
+privileges of the attacked program.
+
+x  Shell code 
+  Stacking 
+  No-execute 
+  Memory management 
+ 
+Question 19
+_________ is a form of buffer overflow attack.
+
+ 
+
+  Heap Overflows 
+  Return to system call 
+  Replacement stack frame 
+x  All of the Above 
+ 
+Question 20
+ 
+
+12. A buffer can be located _________.
+
+
+  In the heap 
+  On the Stack 
+  In the data section of the process 
+x  All of the above 

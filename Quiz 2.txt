@@ -1,0 +1,143 @@
+Question 1
+Each layer of code needs appropriate hardening measures in place to provide appropriate security services.
+
+X True 
+  False 
+ 
+Question 2
+It is possible for a system to be compromised during the installation process.
+
+X True 
+  False 
+ 
+Question 3
+The default configuration for many operating systems usually maximizes security.
+
+  True 
+X False 
+ 
+Question 4
+A malicious driver can potentially bypass many security controls to install malware.
+
+X True 
+  False 
+ 
+Question 5
+Performing regular backups of data on a system is a critical control that assists with maintaining the integrity of the system and user data.
+
+X True 
+  False 
+ 
+Question 6
+Many users choose a password that is too short or too easy to guess because it is hard for users to remember long and random passwords.
+
+X True 
+  False 
+ 
+Question 7
+User authentication is a procedure that allows communicating parties to verify that the contents of a received message have not been altered and that the source is authentic.
+
+  True 
+X False 
+ 
+Question 8
+In a biometric scheme some physical characteristic of the individual is mapped into a digital representation.
+
+X True 
+  False 
+ 
+Question 9
+Which of the following need to be taken into consideration during the system security planning process?
+
+  how users are authenticated 
+  the categories of users of the system 
+  what access the system has to information stored on other hosts
+X all of the above 
+ 
+Question 10
+The following steps should be used to secure an operating system:
+
+  test the security of the basic operating system 
+  remove unnecessary services 
+  install and patch the operating system 
+X all of the above 
+ 
+Question 11
+_____ applications is a control that limits the programs that can execute on the system to just those in an explicit list.
+
+  Virtualizing 
+X White listing 
+  Logging 
+  Patching 
+ 
+Question 12
+The most important changes needed to improve system security are to _____.
+
+  disable remotely accessible services that are not required 
+  ensure that applications and services that are needed are appropriately configured
+  disable services and applications that are not required 
+X all of the above 
+ 
+Question 13
+Security concerns that result from the use of virtualized systems include ______.
+
+  guest OS isolation 
+  guest OS monitoring by the hypervisor 
+  virtualized environment security 
+X all of the above 
+ 
+Question 14
+Presenting or generating authentication information that corroborates the binding between the entity and the identifier is the _______.
+
+  identification step 
+  authentication step 
+X verification step 
+  corroboration step 
+ 
+Question 15
+Recognition by fingerprint, retina, and face are examples of _______.
+
+  face recognition 
+X static biometrics 
+  dynamic biometrics 
+  token authentication 
+ 
+Question 16
+Voice pattern, handwriting characteristics, and typing rhythm are examples _______.
+
+  face recognition 
+  static biometrics 
+X dynamic biometrics 
+  token authentication 
+ 
+Question 17
+A _____ strategy is one in which the system periodically runs its own password cracker to find guessable passwords.
+
+  user education 
+X reactive password checking 
+  proactive password checking 
+  computer-generated password 
+ 
+Question 18
+Each individual who is to be included in the database of authorized users must first be ______ in the system.
+
+  verified 
+  identified 
+  authenticated 
+X enrolled 
+ 
+Question 19
+Which of the following is an example of multi-factor authentication:
+
+  Enter both a group password and a user password 
+X Enter a pin number and put a finger on fingerprint reader 
+  Use an authentication token (e.g., a smartcard) 
+  All of the above 
+ 
+Question 20
+Which of the following is a threat to or concern of biometric authentication:
+
+  Inherent imprecision (e.g., two people may have their fingerprints digitally interpreted as the same)
+  Impersonation (e.g., use a voice recording) 
+  Coercion (e.g., force the user to put his finger on the fingerprint reader)
+X All of the above 

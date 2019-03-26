@@ -1,0 +1,109 @@
+Question 1  
+In IPSec, packets can be protected using ESP or AH but not both at the same time.
+	True
+X	False
+ 
+Question 2 
+In IPSec, if A uses DES for traffic from A to B, then B must also use DES for traffic from B to A.
+	True
+X	False
+ 
+Question 3 
+In IPSec, the sequence number is used for preventing replay attacks.
+X	True
+	False
+
+Question 4 
+Most browsers come equipped with SSL and most Web servers have implemented the protocol.
+X	True
+	False
+
+Question 5 
+Even web searches have (often) been in HTTPS.
+X	True
+	False
+
+Question 6 
+In a wireless network, traffic is broadcasted into the air, and so it is much easier to sniff wireless traffic compared with wired traffic.
+X	True
+	False
+ 
+Question 7 
+Compared with WEP, WPA2 has more flexible authentication and stronger encryption schemes.
+X	True
+	False
+ 
+Question 8 
+iOS has no vulnerability.
+	True
+X	False
+ 
+Question 9 
+In iOS, each file is encrypted using a unique, per-file key.
+X	True
+	False
+ 
+Question 10 
+In iOS, an app can run its own dynamic, run-time generated code.
+	True
+X	False
+ 
+Question 11 
+The App Store review process can guarantee that no malicious iOS app is allowed into the store for download.
+	True
+X	False
+ 
+Question 12 
+In iOS, each app runs in its own sandbox.
+X	True
+	False
+ 
+Question 13 
+In Android, all apps have to be reviewed and signed by Google.
+	True
+X	False
+ 
+Question 14 
+In Android, an app will never be able to get more permission than what the user has approved.
+	True
+X	False
+ 
+Question 15 
+Since Android is open-source, each handset vendor can customize it, and this is good for security (hint: consider security updates).
+	True
+X   False
+ 
+Question 16 
+The most complex and important part of TLS is the ________.
+	signature
+	message header
+	payload
+X	handshake protocol
+ 
+Question 17 
+_______ is a list that contains the combinations of cryptographic algorithms supported by the client.
+	Compression method
+	Session ID
+X	CipherSuite
+	All of the above
+ 
+Question 18 
+ESP supports two modes of use: transport and ________.
+	padding
+X	tunnel
+	payload
+	sequence
+ 
+Question 19 
+A benefit of IPsec is ________.
+	that it is below the transport layer and transparent to applications
+	there is no need to revoke keying material when users leave the organization
+	it can provide security for individual users if needed
+X	all of the above
+ 
+Question 20 
+The ______ field in the outer IP header indicates whether the association is an AH or ESP security association.
+X	protocol identifier
+	security parameter index
+	IP destination address
+	sequence path counter

@@ -1,0 +1,151 @@
+Question 1  
+Symmetric encryption is also referred to as secret-key or single-key encryption.
+X	True
+	False
+ 
+Question 2 
+The ciphertext-only attack is the easiest to defend against.
+X	True
+	False
+
+Question 3 
+A brute-force approach involves trying every possible key until an intelligible translation of the ciphertext into plaintext is obtained.
+X	True
+	False
+ 
+Question 4 
+AES uses a Feistel structure. Advanced encryption standard (coming)
+	True        - DES
+X	False       - AES processes the entire data block in parallel during each round using substitutions and permutation
+ 
+Question 5 
+Each block of 64 plaintext bits is encoded independently using the same key is a description of the CBC mode of operation.
+	True    for Electronic Code book
+X	False   CBC encryption algorithm is the XOR ofthe next 64 bits of plaintext and the preceding 64 bitsof ciphertext.
+
+Question 6 
+Timing attacks are only applicable to RSA.
+	True
+X	False
+
+Question 7 
+Using PKCS (public-key cryptography standard), when RSA encrypts the same message twice, different ciphertexts will be produced.
+X	True
+	False
+ 
+Question 8 
+The Diffie-Hellman algorithm depends for its effectiveness on the difficulty of computing discrete logarithms.
+X	True
+	False
+ 
+Question 9 
+A key exchange protocol is vulnerable to a man-in-the-middle attack if it does not authenticate the participants.
+X	True
+	False
+ 
+Question 10 
+Just like RSA can be used for signature as well as encryption, Digital Signature Standard can also be used for encryption.
+	True
+X	False
+ 
+Question 11 
+In general, public key based encryption is much slower than symmetric key based encryption.
+X	True
+	False
+ 
+Question 12 
+________ is the original message or data that is fed into the encryption process as input.
+X	Plaintext
+	Encryption algorithm
+	Decryption algorithm
+	Ciphertext
+ 
+Question 13 
+Which of the following would allow an attack that to know the (plaintext of) current message must be the same as one previously transmitted because their ciphtertexts are the same? (page 655 and below)
+	CBC Cipher Block Chaining
+X	ECB Electronic Code book        
+	CFB Cipher Feedback
+	OFB Output Feedback
+    CTR Counter
+ 
+Question 14 
+________ is a term that refers to the means of delivering a key to two parties that wish to exchange data without allowing others to see the key.
+	Session key
+	Subkey
+X	Key distribution technique
+	Ciphertext key
+ 
+Question 15 
+Which of the following features can only be provided by public-key cryptography?
+	Confidentiality protection
+X	Integrity protection
+	Non-repudiation
+	None of the above
+ 
+Question 16 
+Cryptographic systems are generically classified by _______.
+	the type of operations used for transforming plaintext to ciphertext    1 - substitution: A bit, letter, group of bits or letters is mapped to another
+                                                                            2 - transposition, in which elements are rearranged
+                                                                            
+	the number of keys used                                                 1 - symmetric, single-key, secret-key, or conventional (Synonymns)
+                                                                            2 - asymmetric, two-key, or public-key  (Synonymns)
+                                                                            
+	the way in which the plaintext is processed                             Block cipher or Stream Cipher
+X	all of the above
+ 
+Question 17 
+________ attacks have several approaches, all equivalent in effort to factoring the product of two primes.
+X	Mathematical
+	Brute-force                 - This involves trying all possible private keys.
+	Chosen ciphertext           - exploits properties of the RSA
+	Timing                      - depend on the running time of the decryption algorithm.
+ 
+Question 18 
+________ are analogous to a burglar guessing a safe combination by observing how long it takes to turn the dial from number to number.
+	Digital standards
+	Mathematical attacks
+	Ciphertext Attack        
+X	Timing attacks
+
+Question 19 
+_________ was the first published public-key algorithm.
+	NIST
+X	Diffie-Hellman
+	RC4
+	RSA
+
+Question 20 
+The principal attraction of ________ compared to RSA is that it appears to offer equal security for a far smaller bit size, thereby reducing processing overhead.
+X	ECC
+	MD5
+	Diffie-Hellman
+	None of the above
+
+Semetric Algorithms                         
+    All block ciphers (size in = size out) block size   Key size            Year
+    Data Encryption Standard (DES)          64          56                  1977
+    Triple DES (3DES)                       64          112 or 168          1999
+    Advanced Encryption Standard (AES)      128         128, 192, or 256    2000
+    
+Electronic Code book (ECB)
+- Each block of 64 plaintext bits is encoded independently using the same key.
+- Secure transmission of single values (e.g., an encryption key)
+
+Cipher Block Chaining (CBC)
+- The input to the encryption algorithm is the XOR of the next 64 bits of plaintext and the preceding 64 bits of ciphertext.
+- General-purpose block-oriented transmission
+- Authentication
+
+Cipher Feedback (CFB)
+- Input is processed s bits at a time. Preceding ciphertext is used as input to the encryption algorithm to produce pseudorandom output, which is XORed with plaintext to produce next unit of ciphertext.
+- General-purpose stream oriented transmission
+- Authentication
+
+Output Feedback (OFB)
+- Similar to CFB, except that the input to the encryption algorithm is the preceding DES output. 
+- Stream-oriented transmission over noisy channel (e.g., satellite communication) 
+
+Counter (CTR) 
+- Each block of plaintext is XORed with an encrypted counter. The counter is incremented for each subsequent block.
+- General-purpose block-oriented transmission
+- Useful for high-speed requirements

@@ -1,0 +1,178 @@
+Question 1 5 pts
+
+The principal objectives of computer security are to prevent unauthorized users from gaining access to resources, to prevent legitimate users from accessing resources in an unauthorized manner, and to enable legitimate users to access resources in an authorized manner.
+
+	true X
+	False
+ 
+Flag this Question
+Question 2 5 pts
+
+Security labels indicate which system entities are eligible to access certain resources.
+
+	True 
+	False X
+ 
+Flag this Question
+Question 3 5 pts
+
+A user may belong to multiple groups.
+
+	True X
+	False
+ 
+Flag this Question
+Question 4 5 pts
+
+An access right describes the way in which a subject may access an object.
+
+	True X
+	False
+ 
+Flag this Question
+Question 5 5 pts
+
+Any program that is owned by, and SetUID to, the 'superuser' potentially grants unrestricted access to the system to any user executing that program.
+
+	True X
+	False
+ 
+Flag this Question
+Question 6 5 pts
+
+'No write down' is also referred to as the *-property.
+
+	True X ?
+	False
+ 
+Flag this Question
+Question 7 5 pts
+
+A subject can exercise only accesses for which it has the necessary authorization and which satisfy the MAC rules.
+
+	True X
+	False
+ 
+Flag this Question
+Question 8 5 pts
+
+One way to secure against Trojan horse attacks is the use of a secure, trusted operating system.
+
+	True X
+	False
+ 
+Flag this Question
+Question 9 5 pts
+
+Multilevel security is of interest when there is a requirement to maintain a resource in which multiple levels of data sensitivity are defined.
+
+	True X
+	False
+ 
+Flag this Question
+Question 10 5 pts
+
+The Common Criteria for Information Technology and Security Evaluation are ISO standards for specifying security requirements and defining evaluation criteria.
+
+	True X
+	False
+ 
+Flag this Question
+Question 11 5 pts
+
+_____ implements a security policy that specifies who or what may have access to each specific system resource and the type of access that is permitted in each instance.
+
+	Audit control
+	Resource control
+	System control
+	Access control X
+ 
+Flag this Question
+Question 12 5 pts
+
+_____ is the granting of a right or permission to a system entity to access a system resource.
+
+	Authorization X
+	Authentication
+	Control
+	Monitoring
+ 
+Flag this Question
+Question 13 5 pts
+
+______ controls access based on comparing security labels with security clearances.
+
+	MAC X
+	DAC
+	RBAC
+	MBAC
+ 
+Flag this Question
+Question 14 5 pts
+
+A(n) ______ is a named job function within the organization that controls this computer system.
+
+	user
+	role X
+	permission
+	session
+ 
+Flag this Question
+Question 15 5 pts
+
+_____ provide a means of adapting RBAC to the specifics of administrative and security policies in an organization.
+
+	Constraints C
+	Mutually Exclusive Roles -
+	Cardinality
+	Prerequisites
+ 
+Flag this Question
+Question 16 5 pts
+
+A multilevel secure system for confidentiality must enforce:
+
+	no read up - 
+	ss-property
+	no write down
+	all of the above  X
+ 
+Flag this Question
+Question 17 5 pts
+
+The ______ Model was developed for commercial applications in which conflicts of interest can arise.
+
+	Biba 
+	Clark-Wilson Integrity
+	Bell-Lapadula
+	Chinese Wall X
+ 
+Flag this Question
+Question 18 5 pts
+
+______ data are data that may be derived from corporate data but that cannot be used to discover the corporation's identity.
+
+	Reference
+	Trust
+	Sanitized X
+	MAC
+ 
+Flag this Question
+Question 19 5 pts
+
+The _____ is a hardware module that is at the heart of a hardware/software approach to trusted computing.
+
+	BLP
+	TC -
+	CC
+	TPM X
+ 
+Flag this Question
+Question 20 5 pts
+
+_____ is a process that ensures a system is developed and operated as intended by the system's security policy.
+
+	Trust
+	Assurance
+	Evaluation
+	Functionality

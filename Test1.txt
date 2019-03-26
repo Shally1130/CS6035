@@ -1,0 +1,232 @@
+Question 1
+John and Joe have employers that use two forms of authentication to access company resources.  John’s employer uses two different biometric security measures (retina scanner, fingerprint scanner) for authentication.  Joe’s employer uses a password and a key card for authentication.  Both John and Joe’s employers security methods are equally secure.
+X  True 
+  False 
+ 
+Question 2
+The Stack in memory, typically is a “LIFO (Last in First Out) or FILO (First In Last Out)” structure?
+X  True 
+  False 
+ 
+Question 3
+The stack frame is contiguous in memory.
+X  True 
+  False 
+ 
+Question 4
+Static code analysis is a method of computer program debugging that is done by examining the code without executing the program.
+X  True 
+  False 
+ 
+Question 5
+Address space layout randomization (ASLR) is a memory-protection mechanism that offers security against buffer overflow attacks by randomizing the location where local variables are loaded into memory.
+  True 
+X False 
+ 
+Question 6
+People share a large number of documents across the Internet without security checks, which makes them particularly susceptible to macro viruses.
+X True 
+  False 
+ 
+Question 7
+Assume that the system uses /etc/passwd to store user passwords. The /etc/passwd file has the setuid bit set and is owned by the root. When a user U1 tries to change his/her password, the /etc/passwd file must be changed and so that when the user U1 executes F1, the UID of the process executing F1 is root.
+  True 
+X False 
+ 
+Question 8
+If a user’s access rights to a database are revoked, it is conventional for all cascading access rights to be revoked, unless those access rights were provided independently from the revoked access rights.
+X True 
+  False 
+ 
+Question 9
+External Hackers are more threatening sources of exploitation to the database than internal users.
+  True 
+X  False 
+ 
+Question 10
+A SQL injection attack requires that the attacker have a valid login to the database
+  True 
+X  False 
+ 
+Question 11
+3 / 3 pts
+A Boot sector virus resides in the operating system.  
+
+  True 
+X  False 
+ 
+Question 12
+Alice used Discretionary Access Control to provide read/write permission for the file “top secret” to Bob but not Rob. This ensures that Rob cannot get the contents of top secret.
+  True 
+X  False 
+ 
+Question 13
+Worm is a malicious program which spreads itself throughout the network without human assistance.
+X  True 
+  False 
+ 
+Question 14
+An attacker guesses Jim’s password and is able to login as him. This is an example of a false positive authentication.
+X  True 
+  False 
+ 
+Question 15
+Sally wants to share a file with Jeff, but she’s afraid Jeff will share it with George. This is a problem that can be solved with Discretionary Access Control (DAC).
+  True 
+X  False 
+ 
+Question 16
+Confidentiality is the assurance that data has not been altered by an unauthorized source.
+  True 
+X  False 
+ 
+Question 17
+ Buffer overflow happens because of insufficient system memory
+  True 
+X  False 
+ 
+Question 18
+Which of the following is a means of authentication?
+  Something the individual knows 
+  Something the individual possesses 
+  Something the individual is 
+  Something the individual does 
+X  All of the above 
+  None of the above 
+ 
+Question 19
+The following can expose one's code to a buffer overflow: 
+  Compiling code with stack canaries 
+  Tagging certain memory as non-executable 
+X  Using a loosely-typed language 
+  Boundary checking before storing values in memory 
+  Address space randomization 
+ 
+Question 20
+Often a function call stack frame can be overwritten without the process being aware of this fact. To defend against this,  a _____ value can be added by function entry code below the old frame pointer address. The function exit code checks that the _____ value hasn’t changed before continuing at the end of a function call.
+
+  Frame 
+X  Canary 
+  Heap 
+  Boundary 
+  Hash 
+ 
+Question 21
+Biometrics are immune to which of the following attacks?
+  Eavesdropping/theft/copying 
+  Replay 
+  Trojan horse 
+  Denial of service 
+  All the above 
+X  None of the above 
+ 
+Question 22
+The stack can be exploited through:
+  Popping data off the stack to gain access to application code.
+X  Overflowing the buffer to change the return address to alter program execution.
+  Pushing data onto the stack to overflow the stack into the heap.
+  None of the above 
+ 
+Question 23
+Which one of the following described functions should be executed in the application code running in user mode (versus in the operating system)?
+  Page fault handling. 
+X  Setting up a new stack frame when an application program calls one of its functions.
+  Switching CPU from one process to another when a process blocks.
+  Changing who can access a protected resource such as a file.
+ 
+Question 24
+Which of the following is an example of a Trojan Horse :
+  Part of a program will only run if the computer is at user’s home, and it will upload all MS Word doc to a website.
+X  A customised keyboard app that logs user input and sends it to a server on the internet.
+  An email attachment that when being opened will send itself to all people in the user’s address book.
+  A login program with an undocumented option (e.g. DEBUG) that would allow an attacker to supply any username and password to gain access to the computer.
+ 
+Question 25
+If a malicious program automatically propagates over a network and also replicates itself by infecting other files, the behavior can best be described by which of the following
+1. Virus
+2. Worm
+3. Trojan Horse
+4. Spyware
+  1,3 
+  2,3 
+X 1,2 
+  2.4 
+  All the above 
+  None of the above 
+ 
+Question 26
+Protection against a buffer overflow exploit that puts code in a program’s stack and jumps to it involves marking the stack as
+  Read Only 
+  Write Only 
+X  Read-Write 
+  Read-Write-Execute 
+ 
+Question 27
+Mr. Robot published a cute and fancy keyboard app which secretly logs every keystroke and anonymously sends it to a remote server. This is an example of a :
+  Logic Bomb 
+X  Trojan Horse 
+  Trap Door 
+  Virus 
+ 
+Question 28
+GaTech decided to mandatorily include biometric scan in Duo Mobile app (current 2-factor-authentication mechanism’s 2nd factor). This will virtually make the login process include :
+  Something a user knows 
+  Something a user has 
+  Something a user is 
+X  All the above 
+  None of the above 
+ 
+Question 29
+Some of the drawbacks to using safe languages include:
+1. Performance
+2. Reusability
+3. Programmer Flexibility
+4. Functionality is severely restricted
+
+  1 and 4 
+  2 and 4 
+X  1 and 3 
+  2, 3, and 4 
+  None of the above 
+ 
+Question 30
+The system administrators at Georgia Tech should use the following procedures when securing passwords for students in the OMSCS Program.
+I.   Never store passwords in the clear
+II.  Store only hashed values generated with a static salt
+III. Avoid general purpose fast hash functions
+
+X  I, III 
+  I, II 
+  II,III 
+  I,II,III 
+  None of the above 
+ 
+Question 31
+When deploying multi-factor authentication methods which of these statistical measures will likely be reduced.
+  True Positives 
+  True Negatives 
+X  False Positives 
+  False Negatives 
+  None of the above 
+ 
+Question 32
+Remote user authentication is more complex than local user authentication because it introduces this additional threat vector:
+
+  An eavesdropper can capture a password 
+  An adversary can replay an observed authentication sequence
+X  Both A & B 
+  None of the above 
+ 
+Question 33
+In traditional UNIX file system, associated with each file are a set of protection/permission bits which are part of the file’s inode. These bits specify the access of a file with respect to the owner, group, others and also specify some additional behaviors. How many permission bits are there in UNIX system?
+  9 
+  10 
+  11 
+X 12 
+ 
+Question 34
+Which modern x86 register is used to contain the address of the top of stack?
+X ESP 
+  EBP 
+  EDX 
+  ECX 

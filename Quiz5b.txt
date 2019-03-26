@@ -1,0 +1,174 @@
+Question 1 5 pts
+
+A bot is a computer compromised by malware and under the control of a bot master (attacker).
+
+	True X
+	False
+ 
+Flag this Question
+Question 2 5 pts
+
+The best defense against being an unwitting participant in a DDoS attack is to prevent your systems from being compromised.
+
+	True    X 
+	False  
+ 
+Flag this Question
+Question 3 5 pts
+
+Botnet command-and-control must be centralized, i.e., all bots communicate with a central server(s).
+
+	True    wrong
+	False   X
+ 
+Flag this Question
+Question 4 5 pts
+
+Both static and dynamic analyses are needed in order to fully understand malware behaviors.
+
+	True  X
+	False
+ 
+Flag this Question
+Question 5 5 pts
+
+The domain name(s) of the command and control server(s) of a botnet are pre-determined for the lifetime of the botnet.
+
+	True  
+	False X
+ 
+Flag this Question
+Question 6 5 pts
+
+Some APT attacks last for years before they are detected.
+
+	True  X
+	False
+ 
+Flag this Question
+Question 7 5 pts
+
+If we find that a botnet server is located in country X, we can be certain that criminals within country X control the botnet.
+
+	True    
+	False   X
+ 
+Flag this Question
+Question 8 5 pts
+
+The firewall may be a single computer system or a set of two or more systems that cooperate to perform the firewall function.
+
+	True    X
+	False
+ 
+Flag this Question
+Question 9 5 pts
+
+A firewall can serve as the platform for IPSec.
+
+	True    X
+	False
+ 
+Flag this Question
+Question 10 5 pts
+
+A packet filtering firewall is typically configured to filter packets going in both directions.
+
+	True    X
+	False
+ 
+Flag this Question
+Question 11 5 pts
+
+A prime disadvantage of an application-level gateway is the additional processing overhead on each connection.
+
+	True    X
+	False
+ 
+Flag this Question
+Question 12 5 pts
+
+A DMZ is one of the internal firewalls protecting the bulk of the enterprise network.
+
+	True    
+	False   X
+ 
+Flag this Question
+Question 13 5 pts
+
+A Botnet can use _______ for command-and-control.
+
+	Email
+	HTTP
+	IRC
+	All the above   X
+ 
+Flag this Question
+Question 14 5 pts
+
+In a ______ attack the attacker creates a series of DNS requests containing the spoofed source address for the target system.
+
+	SYN flood
+	DNS amplification       X
+	poison packet
+	UDP flood       
+ 
+Flag this Question
+Question 15 5 pts
+
+Characteristics of APT include ______.
+
+	Using zero-day exploit
+	Low-and-slow
+	Targeting high-value data
+	All the above       X
+ 
+Flag this Question
+Question 16 5 pts
+
+The _______ defines the transport protocol.
+
+	destination IP address
+	source IP address
+	interface               Wrong
+	IP protocol field       X
+ 
+Flag this Question
+Question 17 5 pts
+
+A _________ gateway sets up two TCP connections, one between itself and a TCP user on an inner host and one between itself and a TCP user on an outside host.
+
+	packet filtering        wrong
+	stateful inspection     
+	application-level       
+	circuit-level           X   
+ 
+Flag this Question
+Question 18 5 pts
+
+Typically the systems in the ________ require or foster external connectivity such as a corporate Web site, an e-mail server, or a DNS server.
+
+	DMZ             X
+	IP protocol field
+	boundary firewall
+	VPN
+ 
+Flag this Question
+Question 19 5 pts
+
+A _______ configuration involves stand-alone firewall devices plus host-based firewalls working together under a central administrative control.
+
+	packet filtering firewall   
+	distributed firewall        X
+	personal firewall
+	stateful inspection firewall
+ 
+Flag this Question
+Question 20 5 pts
+
+The ________ attack is designed to circumvent filtering rules that depend on TCP header information.
+
+	tiny fragment           X
+	address spoofing
+	source routing
+	bastion host

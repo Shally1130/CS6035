@@ -1,0 +1,170 @@
+Quiz 8 Hashes and SHA
+
+Question 1 5 pts
+
+SHA is perhaps the most widely used family of hash functions.
+
+	True
+	False
+ 
+Flag this Question
+Question 2 5 pts
+
+SHA-1 is considered to be very secure.
+
+	True
+	False
+ 
+Flag this Question
+Question 3 5 pts
+
+HMAC can be proven secure provided that the embedded hash function has some reasonable cryptographic strengths.
+
+	True
+	False
+ 
+Flag this Question
+Question 4 5 pts
+
+The additive constant numbers used in SHA-512 are random-looking and are hardcoded in the algorithm.
+
+	True
+	False
+ 
+Flag this Question
+Question 5 5 pts
+
+The strong collision resistance property subsumes the weak collision resistance property.
+
+	True
+	False
+ 
+Flag this Question
+Question 6 5 pts
+
+Cryptographic hash functions generally execute faster in software than conventional encryption algorithms such as DES and AES.
+
+	True
+	False
+ 
+Flag this Question
+Question 7 5 pts
+
+A hash function such as SHA-1 was not designed for use as a MAC and cannot be used directly for that purpose because it does not rely on a secret key.
+
+	True
+	False
+ 
+Flag this Question
+Question 8 5 pts
+
+It is a good idea to use sequentially increasing numbers as challenges in security protocols.
+
+	True
+	False
+ 
+Flag this Question
+Question 9 5 pts
+
+Assuming that Alice and Bob have each other?s public key. In order to establish a shared session key, Alice just needs to generate a random k, encrypt k using Bob?s public key, and send the encrypted k to Bob and then Bob will know he has a key shared with Alice.
+
+	True
+	False
+ 
+Flag this Question
+Question 10 5 pts
+
+In security protocol, an obvious security risk is that of impersonation.
+
+	True
+	False
+ 
+Flag this Question
+Question 11 5 pts
+
+In Kerberos, the authentication server shares a unique secret key with each authorized computer on the network.
+
+	True
+	False
+ 
+Flag this Question
+Question 12 5 pts
+
+In Kerberos, each human user has a master key shared with the authentication server, and the key is usually derived from the user's password.
+
+	True
+	False
+ 
+Flag this Question
+Question 13 5 pts
+
+In Kerberos, the purpose of using ticket-granting-ticket (TGT) is to minimize the exposure of a user?s master key.
+
+	True
+	False
+ 
+Flag this Question
+Question 14 5 pts
+
+The ticket-granting ticket is never expired.
+
+	True
+	False
+ 
+Flag this Question
+Question 15 5 pts
+
+Kerberos does not support inter-realm authentication.
+
+	True
+	False
+ 
+Flag this Question
+Question 16 5 pts
+
+SHA-1 produces a hash value of _______ bits.
+
+	256
+	160
+	384
+	180
+ 
+Flag this Question
+Question 17 5 pts
+
+Issued as RFC 2104, _______ has been chosen as the mandatory-to-implement MAC for IP Security.
+
+	RSA
+	SHA-3
+	DSS
+	HMAC
+ 
+Flag this Question
+Question 18 5 pts
+
+The DSS makes use of the _______ and presents a new digital signature technique, the Digital Signature Algorithm (DSA).
+
+	HMAC
+	XOR
+	RSA
+	SHA-1
+ 
+Flag this Question
+Question 19 5 pts
+
+The purposes of a security protocol include:
+
+	Authentication
+	Key-exchange
+	Negotiate crypto algorithms and parameters
+	All the above
+ 
+Flag this Question
+Question 20 5 pts
+
+Which of the following scenario requires a security protocol:
+
+	log in to mail.google.com
+	connecting to work from home using a VPN
+	Both A and B
+	No answer text provided.

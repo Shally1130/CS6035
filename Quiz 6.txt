@@ -1,0 +1,164 @@
+Question 1 5 pts
+
+Intrusion detection is based on the assumption that the behavior of the intruder differs from that of a legitimate user in ways that can be quantified.
+	True 
+ 
+Flag this Question
+Question 2 5 pts
+
+To be of practical use an IDS should detect a substantial percentage of intrusions while keeping the false alarm rate at an acceptable level.
+	True 
+ 
+Flag this Question
+Question 3 5 pts
+
+An inline sensor monitors a copy of network traffic; the actual traffic does not pass through the device. 
+	False  
+ 
+Flag this Question
+Question 4 5 pts
+
+A common location for a NIDS sensor is just inside the external firewall.
+	True
+	
+ 
+Flag this Question
+Question 5 5 pts
+
+Network-based intrusion detection makes use of signature detection and anomaly detection.
+	True
+	
+ 
+Flag this Question
+Question 6 5 pts
+
+Symmetric encryption is used primarily to provide confidentiality.
+	True
+	
+ 
+Flag this Question
+Question 7 5 pts
+
+Two of the most important applications of public-key encryption are digital signatures and key management.
+	True
+	
+ 
+Flag this Question
+Question 8 5 pts
+
+The secret key is one of the inputs to a symmetric-key encryption algorithm.
+	True
+  
+Flag this Question
+Question 9 5 pts
+
+The strength of a hash function against brute-force attacks depends on the length of the hash code produced by the algorithm.
+	True
+	
+ 
+Flag this Question
+Question 10 5 pts
+
+Public-key algorithms are based on simple operations on bit patterns.
+	False
+	
+ 
+Flag this Question
+Question 11 5 pts
+
+A _______ monitors the characteristics of a single host and the events occurring within that host for suspicious activity.
+
+X	host-based IDS
+	security intrusion
+	network-based IDS
+	intrusion detection
+ 
+Flag this Question
+Question 12 5 pts
+
+_______ involves an attempt to define a set of rules or attack patterns that can be used to decide if a given behavior is that of an intruder.
+
+	Profile based detection
+X	Signature detection
+	Threshold detection
+	Anomaly detection
+ 
+Flag this Question
+Question 13 5 pts
+
+_______ involves the collection of data relating to the behavior of legitimate users over a period of time.
+
+	Profile based detection
+	Signature detection
+	Threshold detection
+X	Anomaly detection
+ 
+Flag this Question
+Question 14 5 pts
+
+A(n) ______ is inserted into a network segment so that the traffic that it is monitoring must pass through the sensor.
+
+	passive sensor
+	analysis sensor
+	LAN sensor
+X	inline sensor
+ 
+Flag this Question
+Question 15 5 pts
+
+The ______ is the IDS component that examines the data collected by the sensor for signs of unauthorized or undesired activity or for events that might be of interest to the security administrator.
+
+	data source
+	sensor
+	operator
+X	analyzer
+ 
+Flag this Question
+Question 16 5 pts
+
+On average, ________ of all possible keys must be tried in order to achieve success with a brute-force attack.
+
+	one-fourth
+X	half
+	two-thirds
+	three-fourths
+ 
+Flag this Question
+Question 17 5 pts
+
+If the only form of attack that could be made on an encryption algorithm is brute-force, then the way to counter such attacks would be to ________ .
+
+ X	use longer keys
+	use shorter keys
+	use more keys
+	use less keys
+ 
+Flag this Question
+Question 18 5 pts
+
+________ is a procedure that allows communicating parties to verify that received or stored messages are authentic.
+
+	Cryptanalysis
+	Decryption
+X	Message authentication
+	Collision resistance
+ 
+Flag this Question
+Question 19 5 pts
+
+The purpose of a ________ is to produce a 'fingerprint' of a file, message, or other block of data.
+
+	secret key
+	digital signature
+	keystream
+X	hash function
+ 
+Flag this Question
+Question 20 5 pts
+
+A _________ is created by using a secure hash function to generate a hash value for a message and then encrypting the hash code with a private key.
+
+X	digital signature
+	keystream
+	one-way hash function
+	secret key

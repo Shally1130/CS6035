@@ -1,0 +1,135 @@
+Question 1
+A bot is a computer compromised by malware and under the control of a bot master (attacker).
+
+X True 
+  False 
+ 
+Question 2
+The best defense against being an unwitting participant in a DDoS attack is to prevent your systems from being compromised.
+
+X True 
+  False 
+ 
+Question 3
+Botnet command-and-control must be centralized, i.e., all bots communicate with a central server(s).
+
+  True 
+X False 
+ 
+Question 4
+Both static and dynamic analyses are needed in order to fully understand malware behaviors.
+
+X True 
+  False 
+ 
+Question 5
+The domain name(s) of the command and control server(s) of a botnet are pre-determined for the lifetime of the botnet.
+
+  True 
+X False 
+ 
+Question 6
+Some APT attacks last for years before they are detected.
+
+X True 
+  False 
+ 
+Question 7
+If we find that a botnet server is located in country X, we can be certain that criminals within country X control the botnet.
+
+  True 
+X False 
+ 
+Question 8
+The firewall may be a single computer system or a set of two or more systems that cooperate to perform the firewall function.
+
+X True 
+  False 
+ 
+Question 9
+A firewall can serve as the platform for IPSec.
+
+X True 
+  False 
+ 
+Question 10
+A packet filtering firewall is typically configured to filter packets going in both directions.
+
+X True 
+  False 
+ 
+Question 11
+A prime disadvantage of an application-level gateway is the additional processing overhead on each connection.
+
+X True 
+  False 
+ 
+Question 12
+A DMZ is one of the internal firewalls protecting the bulk of the enterprise network.
+
+  True 
+X False 
+ 
+Question 13
+A Botnet can use _______ for command-and-control.
+
+  Email 
+  HTTP 
+  IRC 
+X All the above 
+ 
+Question 14
+In a ______ attack the attacker creates a series of DNS requests containing the spoofed source address for the target system.
+
+  SYN flood 
+X DNS amplification 
+  poison packet 
+  UDP flood 
+ 
+Question 15
+Characteristics of APT include ______.
+
+  Using zero-day exploit 
+  Low-and-slow 
+  Targeting high-value data 
+X All the above 
+ 
+Question 16
+The _______ defines the transport protocol.
+
+  destination IP address 
+  source IP address 
+  interface 
+X IP protocol field 
+ 
+Question 17
+A _________ gateway sets up two TCP connections, one between itself and a TCP user on an inner host and one between itself and a TCP user on an outside host.
+
+  packet filtering 
+  stateful inspection 
+  application-level 
+X circuit-level 
+ 
+Question 18
+Typically the systems in the ________ require or foster external connectivity such as a corporate Web site, an e-mail server, or a DNS server.
+
+X DMZ 
+  IP protocol field 
+  boundary firewall 
+  VPN 
+ 
+Question 19
+A _______ configuration involves stand-alone firewall devices plus host-based firewalls working together under a central administrative control.
+
+  packet filtering firewall 
+X distributed firewall 
+  personal firewall 
+  stateful inspection firewall 
+ 
+Question 20
+The ________ attack is designed to circumvent filtering rules that depend on TCP header information.
+
+X tiny fragment 
+  address spoofing 
+  source routing 
+  bastion host 

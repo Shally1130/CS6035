@@ -1,0 +1,168 @@
+Question 1 5 pts
+
+External attacks are the only threats to database security.
+
+	True 
+	False X
+ 
+Flag this Question
+Question 2 5 pts
+
+A virus that attaches to an executable program can do anything that the program is permitted to do.
+
+	True X
+	False
+ 
+Flag this Question
+Question 3 5 pts
+
+It is not possible to spread a virus via an USB stick.
+
+	True 
+	False X
+ 
+Flag this Question
+Question 4 5 pts
+
+Many forms of infection can be blocked by denying normal users the right to modify programs on the system.
+
+	True X
+	False
+ 
+Flag this Question
+Question 5 5 pts
+
+A macro virus infects executable portions of code.
+
+	True 
+	False X
+ 
+Flag this Question
+Question 6 5 pts
+
+In addition to propagating, a worm usually carries some form of payload.
+
+	True X
+	False
+ 
+Flag this Question
+Question 7 5 pts
+
+_______ is the process of performing authorized queries and deducing unauthorized information from the legitimate responses received.
+
+	Perturbation
+	Inference X
+	Compromise
+	Partitioning
+ 
+Flag this Question
+Question 8 5 pts
+
+______ is a defense against SQL Injection attacks.
+
+	Perturbation
+	Input validation X
+	Anonymization
+	Partitioning
+ 
+Flag this Question
+Question 9 5 pts
+
+To defense against database inference attacks, we can apply _______.
+
+	Perturbation
+	De-identification
+	Anonymization 
+	All the above X
+ 
+Flag this Question
+Question 10 5 pts
+
+_______ are used to send large volumes of unwanted e-mail.
+
+	Rootkits
+	Spammer programs X
+	Downloaders
+	Auto-rooter
+ 
+Flag this Question
+Question 11 5 pts
+
+A _______ is code inserted into malware that lies dormant until a predefined condition is met, which triggers an unauthorized act.
+
+	logic bomb X
+	trapdoor
+	worm
+	Trojan horse
+ 
+Flag this Question
+Question 12 5 pts
+
+The _______ is what the virus 'does'.
+
+	infection mechanism 
+	trigger
+	logic bomb
+	payload X
+ 
+Flag this Question
+Question 13 5 pts
+
+______ is the first function in the propagation phase for a network worm.
+
+	Propagating 
+	Fingerprinting X
+	Keylogging
+	Spear phishing 
+ 
+Flag this Question
+Question 14 5 pts
+
+_______ is malware that encrypts the user's data and demands payment in order to access the key needed to recover the information.
+
+	Trojan horse
+	Ransomware X
+	Crimeware
+	Polymorphic
+ 
+Flag this Question
+Question 15 5 pts
+It is a commonly accepted best practice to store user's passwords in a database table, so a website's authentication program can validate a user trying to log into the site by verifying the characters entered in the login form matches exactly the characters stored in the table's password field for that specific user. 
+	True 
+	False X
+ 
+Flag this Question
+Question 16 5 pts
+A view cannot provide restricted access to a relational database so it cannot be used for security purposes.
+	True 
+	False X
+ 
+Flag this Question
+Question 17 5 pts
+An IDS is a set of automated tools designed to detect unauthorized access to a host system.
+	True X
+	False
+ 
+Flag this Question
+Question 18 5 pts
+__________ encompasses intrusion detection, prevention and response.
+	Intrusion management X
+	Security assessments
+	Database access control
+	Data loss prevention
+ 
+Flag this Question
+Question 19 5 pts
+A __________ uses macro or scripting code, typically embedded in a document and triggered when the document is viewed or edited, to run and replicate itself into other such documents
+	macro virus X
+	boot sector infector
+	multipartite virus
+	file infector
+ 
+Flag this Question
+Question 20 5 pts
+__________ will integrate with the operating system of a host computer and monitor program behavior in real time for malicious action
+	Behavior-blocking software
+	Generic decryption technology X
+	Heuristic scanners
+	Fingerprint-based scanners
